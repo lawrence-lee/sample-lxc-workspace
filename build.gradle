@@ -1,0 +1,9 @@
+allprojects {
+	plugins.withId("com.liferay.node") {
+		node.global = true
+		node.npmVersion = '8.1.2'
+		node.nodeVersion = "16.15.1"
+		node.useNpm = false
+		node.yarnVersion = "1.22.5"
+	}
+}

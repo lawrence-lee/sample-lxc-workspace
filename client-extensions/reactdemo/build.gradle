@@ -1,0 +1,6 @@
+buildClientExtension {
+    from("${buildDir}") {
+            include "static/**/*"
+            into "static"
+    }
+}
